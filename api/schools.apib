@@ -1,0 +1,36 @@
+# Endpoint for Schools
+
+This Endpoint gives a JSON formatted list of all Schools in Leipzig.
+
+## Schools [/schools]
+
+### List available schools [GET]
+
+Lists schools you are authorized to access.
+
++ Response 200 (application/json)
+ + Body
+ 
+    [{
+        "uuid": "7b7b201f-d0c1-447d-9991-e0f44c760a3f",
+        "name": "Gymnasium Engelsdorf",
+        "post_code": "04319",
+        "street":
+        "Arthur-Winkler-Strasse 6",
+        "town": "Leipzig",
+        "school_type": "Gymnasium",
+        "latitude": "51.33525285",
+        "longitude": "12.4811639395"
+      }, {
+        "uuid": "88a01638-a962-4b16-887a-8a23f09a102d",
+        "name": "Landesgymnasium für Sport Leipzig",
+        "post_code": "04109",
+        "street": "Marschnerstrasse 30",
+        "town": "Leipzig",
+        "school_type":"Gymnasium",
+        "latitude": "51.33926765",
+        "longitude": "12.3557341494"
+    }]
+     
+     
+     
